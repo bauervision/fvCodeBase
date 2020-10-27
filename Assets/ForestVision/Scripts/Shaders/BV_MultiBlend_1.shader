@@ -1,6 +1,6 @@
 ﻿// Upgrade NOTE: replaced '_World2Object' with 'unity_WorldToObject'
 
-Shader "BauerVision/MultiBlend_1" {
+Shader "ForestVision/MultiBlend" {
 	
 	Properties {
 	    [Foldout] _MainShown ("", Float) = 1

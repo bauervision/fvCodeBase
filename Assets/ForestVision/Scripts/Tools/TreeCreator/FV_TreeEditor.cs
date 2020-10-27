@@ -299,7 +299,13 @@ namespace ForestVision.FV_TreeEditor
             {
                 GUIContent guiContent = new GUIContent();
                 guiContent.text = _categorizedItems[_categorySelected][i].itemName;
-                guiContent.image = _previews[_categorizedItems[_categorySelected][i]];
+
+                if (_previews[_categorizedItems[_categorySelected][i]] != null)
+                {
+                    guiContent.image = _previews[_categorizedItems[_categorySelected][i]];
+                }
+
+
                 guiContents.Add(guiContent);
             }
 
