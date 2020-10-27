@@ -334,8 +334,6 @@ namespace ForestVision.FV_TreeEditor
                 {
                     obj.transform.parent = Selection.activeTransform;
                     obj.transform.localPosition = Vector3.zero;
-
-
                 }
 
                 if (ItemSelectedEvent != null)
@@ -344,16 +342,6 @@ namespace ForestVision.FV_TreeEditor
                 }
             }
         }
-
-        private void Update()
-        {
-
-            //     if (_previews.Count == 0)
-            //     {
-            //         GeneratePreviews();
-            //     }
-        }
-
 
 
     }
